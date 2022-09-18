@@ -1,5 +1,3 @@
-dist
-BLAKE2-master
-BLAKE2b.js
-BLAKE2b.wasm
 master.zip
+BLAKE2-master
+dist
