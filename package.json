@@ -1,6 +1,6 @@
 {
 	"name": "@nicolasflamel/blake2b-wasm",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "WASM wrapper for parts of the official BLAKE2b implementation",
 	"main": "./dist/index.js",
 	"files": [
