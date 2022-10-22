@@ -1,0 +1,24 @@
+{
+	"name": "@nicolasflamel/blake2b-wasm",
+	"version": "0.0.1",
+	"description": "WASM wrapper for parts of the official BLAKE2b implementation",
+	"main": "./dist/index.js",
+	"files": [
+		"dist/*"
+	],
+	"scripts": {
+		"prepublishOnly": "make dependencies && make npm"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NicolasFlamel1/BLAKE2b-WASM-Wrapper.git"
+	},
+	"keywords": [
+		"BLAKE2b"
+	],
+	"author": "Nicolas Flamel",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/NicolasFlamel1/BLAKE2b-WASM-Wrapper/issues"
+	}
+}

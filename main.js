@@ -50,6 +50,12 @@ class Blake2b {
 		// Compute
 		static compute(resultSize, input, key) {
 		
+			// Check if instance doesn't exist
+			if(typeof Blake2b.instance === "undefined")
+			
+				// Set instance
+				Blake2b.instance = blake2b();
+			
 			// Check if instance is invalid
 			if(Blake2b.instance === Blake2b.INVALID)
 			
